@@ -5,6 +5,7 @@
  * @j: list of arguments to be printed
  * Return: precision
  */
+
 int get_size(const char *format, int *j)
 {
 	int curr_j = *j + 1;
