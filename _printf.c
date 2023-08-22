@@ -1,4 +1,7 @@
 #include "main.h"
+
+void print_buffer(char buffer[], int *buff_ind);
+
 /**
  * _printf -A function that produces output according to a format
  * by Richard and janet
@@ -15,6 +18,7 @@ int _printf(const char *format, ...)
 
 	if (format == NULL)
 		return (-1);
+
 	va_start(list, format);
 	for (i = 0; format && format[i] != '\0'; i++)
 	{
