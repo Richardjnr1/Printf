@@ -7,6 +7,7 @@
  * @list: list of arguments
  * Return: width
  */
+
 int get_width(const char *format, int *j, va_list list)
 {
 	int curr_j;
